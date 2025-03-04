@@ -44,7 +44,7 @@ public class Registration {
             driver.get("https://www.quantumturf.com");
             driver.findElement(By.cssSelector(".header a[href*='signup'")).click();
             driver.findElement(By.xpath("//div[.='Email']/following-sibling::div/input"))
-                    .sendKeys("georgiana.erbasu@yahoo.com");
+                    .sendKeys("georgiana.erbasu452yahoo.com");
 
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             WebElement errorMessage = wait.until(ExpectedConditions.visibilityOfElementLocated
